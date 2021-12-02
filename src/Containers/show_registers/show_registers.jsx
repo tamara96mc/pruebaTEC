@@ -107,19 +107,19 @@ const ShowUsers = () => {
 
                         {currentTableData.map(run => {
                             return (
-                                <div className="show-register-table">
+                                <div className="show-register-table" key={`id-${run.id}`}>
                                     <div className="structure-table-v w-3">
-                                        <p className="colum-components-admin-print-register" key={`id-${run.id}`}>
+                                        <p className="colum-components-admin-print-register" >
                                             {run.id}
                                         </p>
                                     </div>
                                     <div className="structure-table-v w-7">
-                                        <p className="colum-components-admin-print-register" key={`title-${run.id}`}>
+                                        <p className="colum-components-admin-print-register" >
                                             {run.title}
                                         </p>
                                     </div>
                                     <div className="structure-table-v">
-                                        <p className="colum-components-admin-print-register w-16" key={`createdAt-${run.id}`}>
+                                        <p className="colum-components-admin-print-register w-16" >
                                             {run.createdAt}
                                         </p>
                                     </div>
