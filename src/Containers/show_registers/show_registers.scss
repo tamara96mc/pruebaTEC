@@ -1,0 +1,37 @@
+.show-register-table {
+display: flex;
+width: 38em;
+background-color: #aedeea;
+margin: auto;
+}
+.show-register-table {
+    border: 1px solid white;
+}
+
+
+
+.sendButton-no-ready {
+    height: 3em;
+    width: 100%;
+    background-color: rgb(58, 58, 58);
+    color: white;
+    border-radius: 0.2em;
+    display: flex;
+    margin-top: 2em;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 30px;
+    cursor: no-drop;
+    margin-bottom: 8em;
+}
+button.deleteButton {
+    background-color: red;
+    border: unset;
+    border-radius: 6em;
+    color: white;
+    width: 12em;
+    margin-top: 0.3em;
+}
+
